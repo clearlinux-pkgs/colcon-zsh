@@ -1,5 +1,5 @@
 PKG_NAME := colcon-zsh
-URL = https://files.pythonhosted.org/packages/d4/75/2e7ca5e0cff83cb3a9700a5323ed508edc4fbb93cd32c9566e28fb212e4c/colcon-zsh-0.3.1.tar.gz
+URL = https://files.pythonhosted.org/packages/52/98/3bd10dbfec6410f4bccd1fd20d6d8fff14e877024c87e075477a4a7bf2e7/colcon-zsh-0.3.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
