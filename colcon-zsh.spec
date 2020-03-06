@@ -4,7 +4,7 @@
 #
 Name     : colcon-zsh
 Version  : 0.4.0
-Release  : 10
+Release  : 11
 URL      : https://files.pythonhosted.org/packages/c9/57/5170e32f0caab9078d43011b057c1a2a5452e6ccb41920dbfaadaabc46f3/colcon-zsh-0.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c9/57/5170e32f0caab9078d43011b057c1a2a5452e6ccb41920dbfaadaabc46f3/colcon-zsh-0.4.0.tar.gz
 Summary  : Extension for colcon to provide Z shell scripts.
@@ -17,10 +17,7 @@ BuildRequires : buildreq-distutils3
 BuildRequires : colcon-core
 
 %description
-colcon-zsh
 ==========
-
-An extension for `colcon-core <https://github.com/colcon/colcon-core>`_ to provide `Z shell <http://www.zsh.org>`_ scripts.
 
 %package python
 Summary: python components for the colcon-zsh package.
@@ -35,7 +32,8 @@ python components for the colcon-zsh package.
 Summary: python3 components for the colcon-zsh package.
 Group: Default
 Requires: python3-core
-Provides: pypi(colcon-zsh)
+Provides: pypi(colcon_zsh)
+Requires: pypi(colcon_core)
 
 %description python3
 python3 components for the colcon-zsh package.
@@ -50,8 +48,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1582911388
-# -Werror is for werrorists
+export SOURCE_DATE_EPOCH=1583529022
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$CFLAGS -fno-lto "
