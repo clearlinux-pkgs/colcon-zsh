@@ -4,7 +4,7 @@
 #
 Name     : colcon-zsh
 Version  : 0.4.0
-Release  : 12
+Release  : 13
 URL      : https://files.pythonhosted.org/packages/c9/57/5170e32f0caab9078d43011b057c1a2a5452e6ccb41920dbfaadaabc46f3/colcon-zsh-0.4.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c9/57/5170e32f0caab9078d43011b057c1a2a5452e6ccb41920dbfaadaabc46f3/colcon-zsh-0.4.0.tar.gz
 Summary  : Extension for colcon to provide Z shell scripts.
